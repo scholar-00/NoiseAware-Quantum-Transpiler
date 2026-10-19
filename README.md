@@ -11,8 +11,3 @@ This project implements a custom Qiskit compiler plugin (`NoiseAwareLayout`) tha
 
 ## Experimental Results
 In a simulated environment with a 10% error rate on a specific edge, this algorithm reduced the number of executions on the "bad edge" from **4 times** (Qiskit default) to **0 times**.
-
-## Roadmap
-- [ ] Wrap into a complete Qiskit `TransformationPass`
-- [ ] Integrate with real FakeBackend hardware data
-- [ ] Add unit tests and visualization comparison charts
